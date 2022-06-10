@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import { BiCheckboxSquare, BiCheckbox } from "react-icons/bi";
 
 const SectionDots = () => {
   return (
-    <div>SectionDots</div>
-  )
-}
+    <div>
+      <BiCheckbox></BiCheckbox>
 
-export default SectionDots
+    </div>
+  );
+};
+
+export default SectionDots;

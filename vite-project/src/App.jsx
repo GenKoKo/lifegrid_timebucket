@@ -11,13 +11,13 @@ function App() {
   return (
     <div className="">
       <div className="flex flex-col ">
-        <Navbar></Navbar>
-        <Hero></Hero>
+        <Navbar/>
+        <Hero/>
       </div>
       <div className="flex flex-row ">
-        <Sidebar></Sidebar>
-        <Section></Section>
-        <Todo></Todo>
+        <Sidebar/>
+        <Section/>
+        <Todo/>
       </div>
     </div>
   );

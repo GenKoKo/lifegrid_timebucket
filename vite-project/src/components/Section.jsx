@@ -1,15 +1,21 @@
-import React from 'react'
-import SectionRow from './SectionRow'
+import React, { useEffect, useState } from "react";
+import SectionRow from "./SectionRow";
 
 const Section = () => {
+  const [age, setAge] = useState(34)
+  const [leftAge, setLeftAge] = useState(100)
+  
+  // useEffect(() =>{
+  //   setLeftAge({leftAge} - {age})
+  // },[] )
+  
   return (
-    <div className=' flex flex-row'>
-        <div className=' bg-purple-500'>
-            <SectionRow></SectionRow>
-        </div>
-
+    <div className=" flex flex-row">
+      <div className=" bg-purple-300">
+        <SectionRow age={age} leftAge={leftAge-age} />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Section
+export default Section;
