@@ -11,7 +11,7 @@ const Section = () => {
   
   return (
     <div className=" flex flex-row">
-      <div className=" bg-purple-300">
+      <div className=" bg-blue-400">
         <SectionRow age={age} leftAge={leftAge-age} />
       </div>
     </div>
